@@ -17,7 +17,7 @@ public class With_DDF {
 	public static void main(String[] args) throws EncryptedDocumentException, IOException, InterruptedException 
 	{
 		System.setProperty("webdriver.chrome.driver", 
-				"C:\\Users\\Manik Kohale\\Desktop\\Selenium Files\\chromedriver.exe\\");
+				"C:\\Users\\Manik Kohale\\Desktop\\Selenium Files\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver();   // create webdriver object
 		
@@ -29,7 +29,7 @@ public class With_DDF {
 		
 		// In data driven framework we cant use direct data, first store in excel sheet & fetch from it .. for data privacy
 		//to reach Excel sheet
-		FileInputStream file=new FileInputStream("C:\\Users\\Manik Kohale\\Desktop\\Excel File\\Book1.xlsx");
+		FileInputStream file=new FileInputStream("C:\\Users\\Manik Kohale\\Documents\\AA  DESKTOP\\Excel File\\Book1.xlsx");
 		
 		// Select particular sheet name ..where data is store
 		

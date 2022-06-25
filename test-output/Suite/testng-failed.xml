@@ -4,12 +4,13 @@
   <test thread-count="5" name="TestChrome(failed)">
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="TestNG.MultiBrowser_Testing">
+      <class name="LearnVern.Assignment6">
         <methods>
           <include name="setBrowser"/>
-          <include name="TC1"/>
+          <include name="testParameter"/>
+          <include name="down"/>
         </methods>
-      </class> <!-- TestNG.MultiBrowser_Testing -->
+      </class> <!-- LearnVern.Assignment6 -->
     </classes>
   </test> <!-- TestChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

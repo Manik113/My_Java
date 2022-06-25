@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Github.GitTestClass">
+      <class name="LearnVern.Assignment6">
         <methods>
-          <include name="VerifyUserName"/>
-          <include name="OpenBrowser"/>
-          <include name="GitHub"/>
+          <include name="setBrowser"/>
+          <include name="testParameter"/>
         </methods>
-      </class> <!-- Github.GitTestClass -->
+      </class> <!-- LearnVern.Assignment6 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
